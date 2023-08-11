@@ -34,5 +34,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "<div align=\"center\" id=\"top\">    <img src=\"./.github/app.gif\" alt=\"Fetch Pexels\" />",
+  "main": "index.js",
+  "author": "Baba",
+  "license": "ISC"
 }

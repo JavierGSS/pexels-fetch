@@ -1,9 +1,9 @@
 import React from "react";
 
-const Characters = ({characters = []}) => {
+const Pictures = ({pics = []}) => {
     return (
         <div className="row">
-            {characters.map((item, index) => (
+            {pics.map((item, index) => (
                     <div key={index} className="col mb-3">
                         <div className="card" style={{minWidth:"200px"}}>
                             <img src={item.src.medium} alt={item.alt}/>
@@ -20,4 +20,4 @@ const Characters = ({characters = []}) => {
     );
 };
 
-export default Characters;
+export default Pictures;

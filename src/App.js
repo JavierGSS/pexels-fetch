@@ -45,7 +45,7 @@ function App() {
 
       <div className="container mt-3">
         <Pagination prev={info.prev_page} next={info.next_page} onPrevious={onPrevious} onNext={onNext} />
-        <Characters pics={pics} />
+        <Pictures pics={pics} />
         <Pagination prev={info.prev_page} next={info.next_page} onPrevious={onPrevious} onNext={onNext} />
       </div>
     </>
